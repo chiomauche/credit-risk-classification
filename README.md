@@ -39,3 +39,7 @@ Answer: The model is very good at predicting 0 (healthy loan), as the f1-score i
 
 ![Alt text](<Screenshot 2023-10-24 022325.png>)
 
+*  Answered the following question: How well does the logistic regression model, fit with oversampled data, predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
+Answer: The logistic regression model trained on oversampled data has higher accuracy in predicting both 0 and 1 labels, and particularly so in the recall score achieved in predicting the high-risk loan label. As it identifies and incorporates misclassifications that the other model does not account for, it can be considered a superior model.
+
