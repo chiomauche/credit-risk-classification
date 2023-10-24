@@ -31,7 +31,11 @@ services company to build a model that can identify the creditworthiness of borr
 
 Answer: The model is very good at predicting 0 (healthy loan), as the f1-score is 1.00. However, the model have high scores in both 0 and 1 labels.It appears that the model is unable to accurately predict high-risk loans (1) to some extent, as a significant portion (around 10%) of the loans categorized as high-risk were classified as healthy. This may be attributed to a scarcity of labeled data on high-risk loans, which limits the model's ability to learn and generalize accurately.
 
-* I created a Logistic Regression Model with Resampled Training Data
+## I created a Logistic Regression Model with Resampled Training Data
 
 ![Alt text](<Screenshot 2023-10-24 021713.png>)
+
+* Printed the classification report.
+
+![Alt text](<Screenshot 2023-10-24 022325.png>)
 
